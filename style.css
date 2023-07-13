@@ -1,13 +1,19 @@
+@font-face{
+    font-family: 414nothing;
+    src: url("/nothing-font-5x7/nothing-font-5x7.ttf") format("truetype")
+}
 *{
+
     margin: 0px;
     padding: 0px;
 }
 body{
     background-color: black;
     color: white;
+    font-family: nothing;
 }
 .hero_title{
     text-align: center;
     line-height: 100vh;
-    font-family: Hack;
+    font-family: 'Raleway Dots', cursive;
 }
